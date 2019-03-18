@@ -395,9 +395,14 @@ ul {
 /*------------------------
 	About section
 --------------------------*/
-.about-section,
-.team-section {
+.about-section{
 	background: #EEB43D;
+	position: relative;
+	z-index: 2;
+}
+
+.team-section {
+	background: #fff;
 	position: relative;
 	z-index: 2;
 }
@@ -666,6 +671,7 @@ ul {
 .icon-box .service-text p,
 .icon-box .icon-box-text p {
 	font-size: 15px;
+	color: white;
 }
 
 .service.light h2,
@@ -963,7 +969,7 @@ ul {
 .sv-card .card-text {
 	padding: 70px 45px;
 	padding-right: 15px;
-	background: #f5f9f8;
+	background: ;
 }
 
 .sv-card .card-text h2 {
@@ -974,6 +980,7 @@ ul {
 
 .sv-card .card-text p {
 	font-size: 15px;
+	color: white;
 }
 
 
